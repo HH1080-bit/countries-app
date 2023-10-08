@@ -9,12 +9,8 @@ export class CountriesService {
   constructor(private http:HttpClient) { }
 
   getAllCountries():Observable<HttpResponse<any>>{
-
-    console.log("I Created a Service Mom!")
-
     return this.http.get<HttpResponse<any>>("https://restcountries.com/v3.1/all",{
       observe: 'response',
-
     })
     }
 

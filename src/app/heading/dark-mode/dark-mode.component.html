@@ -1,6 +1,6 @@
-<div class="dark-mood">
-  <ng-icon name="heroMoon" class="me-1"></ng-icon>
-  <span>Dark Mood</span>
+<div class="dark-mood" (click)="togglingDarkMode()">
+  <ng-icon [name]="currentThemeIcon" class="me-1"></ng-icon>
+  <span>{{currentTheme | titlecase}} Mood</span>
 </div>
 
 

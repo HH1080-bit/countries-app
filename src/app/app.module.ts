@@ -1,8 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgIconsModule } from '@ng-icons/core';
-import { featherAirplay } from '@ng-icons/feather-icons';
-import { heroMoon,heroMagnifyingGlass,heroChevronDown } from '@ng-icons/heroicons/outline';
+import { heroMoon,heroMagnifyingGlass,heroChevronDown,heroSun } from '@ng-icons/heroicons/outline';
 import { AppComponent } from './app.component';
 import { HeadingComponent } from './heading/heading.component';
 import { DarkModeComponent } from './heading/dark-mode/dark-mode.component';
@@ -27,7 +26,7 @@ import {HttpClientModule} from '@angular/common/http'
   imports: [
     BrowserModule,
     HttpClientModule,
-    NgIconsModule.withIcons({ featherAirplay, heroMoon,heroMagnifyingGlass,heroChevronDown }),
+    NgIconsModule.withIcons({heroMoon,heroMagnifyingGlass,heroChevronDown,heroSun}),
   ],
   providers: [],
   bootstrap: [AppComponent]
