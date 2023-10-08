@@ -1,0 +1,7 @@
+.dark-mood {
+  cursor: pointer;
+}
+
+.dark-mood > * {
+  font-size: 18px;
+}

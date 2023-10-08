@@ -1,0 +1,10 @@
+.dd-filter div {
+  background-color: #fff;
+  border: 1px solid #c0c0c0;
+  padding: 10px;
+  cursor: pointer;
+}
+.dd-filter div button {
+  border: none;
+  background-color: transparent;
+}
